@@ -6,4 +6,4 @@ Elixir has an extensive library for dealing with data types like [Strings](https
 
 ## Implementation
 
-Basic solution is to split the string into an array and sort that array. From there is should be a simple `==` comparison.
+Basic solution is to split the string into an array and filter to unique characters. The length of that should be the length of the alphabet

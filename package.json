@@ -2,12 +2,11 @@
   "name": "learn-elixir",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "mdspell -r -n -a --en-us **/*.md && write-good **/*.md --no-passive --no-adverb --no-weasel",
+    "test": "mdspell -r -n -a --en-us projects/**/*.md && write-good **/*.md --no-passive --no-adverb --no-weasel",
     "prettier:format": "prettier --write **/*.md",
     "prettier:check": "prettier -c **/*.md",
-    "grammar:strict": "write-good **/*.md"
+    "grammar:strict": "write-good projects/**/*.md"
   },
   "repository": {
     "type": "git",
