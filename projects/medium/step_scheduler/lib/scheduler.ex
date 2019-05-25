@@ -3,7 +3,8 @@ defmodule Scheduler do
   Documentation for Scheduler.
   """
 
-  def series(word1, word2) do
+  def series(input) do
 
   end
 end
+
