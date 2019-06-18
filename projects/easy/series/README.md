@@ -6,4 +6,4 @@ Write `Series.read/1` so that `mix test` passes
 
 ---
 
-See [hint.md](./hint.md) for help if you get stuck.
+See [help.md](./help.md) for help if you get stuck.

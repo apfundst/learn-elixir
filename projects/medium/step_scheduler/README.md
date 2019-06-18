@@ -39,4 +39,4 @@ Copied from [Advent of Code 2018](https://adventofcode.com/2018)
 
 ---
 
-See [hint.md](./hint.md) for help if you get stuck.
+See [help.md](./help.md) for help if you get stuck.
