@@ -9,7 +9,6 @@ defmodule ValidateUrl.Solution do
     case uri do
       %URI{scheme: nil} -> {:error, uri}
       %URI{host: nil} -> {:error, uri}
-      %URI{path: nil} -> {:error, uri}
       uri -> {:ok, uri}
     end
   end
