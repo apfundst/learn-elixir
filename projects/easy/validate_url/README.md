@@ -4,4 +4,4 @@ Write a function that returns `{:ok, uri}` or `{:error, uri}` when passed a url 
 
 --- 
 
-See help.md for help if you get stuck.
+See [help.md](./help.md) for help if you get stuck.
