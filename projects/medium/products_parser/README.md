@@ -1,21 +1,31 @@
 # ProductsParser
 
-**TODO: Add description**
+Given we have a list of maps that looks like:
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `products_parser` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:products_parser, "~> 0.1.0"}
-  ]
-end
+```
+ %{
+  "brand_name" => "Andar Wallets",
+  "brand_url" => "https://andarwallets.com/",
+  "currency" => "USD",
+  "image" => "https://cdn.shopify.com/s/files/1/1030/7203/products/Cord_Burrito_Product_Pic1.jpg?v=1527177383",
+  "item_name" => "The Cord Burrito",
+  "item_url" => "https://andarwallets.com/products/cord-burrito",
+  "price" => 6,
+  "tags" => ["accessories", "wallets"]
+}
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/products_parser](https://hexdocs.pm/products_parser).
 
+Write a function that generates brands
+
+
+```
+[%{
+  brand_url: "https://andarwallets.com/"
+  brand_name: "Andar Wallets",
+  tags: ["accessories", "wallets"]
+  },
+}]
+```
+
+`brand_url` is a unique identifier, and `tags` should be a list of all unique tags for products sharing a brand_url.
