@@ -6,7 +6,7 @@ defmodule Processes do
   end
 
   def run_async do
-    for i <- 1..100 do
+    for i <- 1..100_000 do
       spawn(fn ->
         work(i)
        end)
